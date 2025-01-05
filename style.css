@@ -1253,3 +1253,31 @@ input:checked {
   --thumb-position: 100%;
   background-color: var(--track-active);
 }
+
+/* Resume Download Section */
+.resume-download {
+  margin-top: 30px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.resume-text {
+  font-size: 16px;
+  color: #34495e;
+  margin-bottom: 15px;
+}
+
+.resume-button {
+  display: inline-block;
+  font-size: 16px;
+  color: #fff;
+  background-color: #3498db;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.resume-button:hover {
+  background-color: #2980b9;
+}
